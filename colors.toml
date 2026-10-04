@@ -25,10 +25,10 @@ dark_foreground = "#8a4557"
 light_foreground = "#d99aa8"
 bright_foreground = "#ffd4dc"
 
-# Scarlet / ember / gold
+# Scarlet / ember / gold, with a classic magenta in the "yellow" slot
 red = "#ff3b5c"
 orange = "#ff7a45"
-yellow = "#ffc05a"
+yellow = "#d75fd7"
 
 # Pinks
 green = "#ff9db0"
@@ -41,7 +41,7 @@ purple = "#7d4a8e"
 brown = "#5a1f3a"
 
 bright_red = "#ff6b84"
-bright_yellow = "#ffd08a"
+bright_yellow = "#e58fe5"
 bright_green = "#ffb8c8"
 bright_cyan = "#d99ae0"
 bright_blue = "#ff8fb5"
@@ -54,6 +54,7 @@ hyprland_inactive_border = "rgba(3a1420aa)"
 # Notes on the naming, so the palette reads as intended:
 #   green   is a soft rose, not a green  -> strings, success, diff-added
 #   blue    is a hot rose, not a blue    -> functions, directories, dates
+#   yellow  is a classic magenta, not gold -> types, warnings, nvim modes
 #   cyan    is a dusky orchid, not teal  -> links, code, the shell prompt
 #   magenta is the hot pink keyword colour
 #   purple  and brown are deep plums for highlights and dark accents

@@ -1,7 +1,8 @@
 # Omarchy pinkrot theme
 
-pinkrot is a dark theme in the Caelid register: scarlet, ember and gold over a
-deep burgundy, with pink chrome and bruised purples for contrast.
+pinkrot is a dark theme in the Caelid register: scarlet and ember over a deep
+burgundy, with pink chrome, classic magenta stand-outs and bruised purples for
+contrast.
 It is the Omarchy port of the `pinkrot` theme from
 [athena-dots](https://github.com/r3b1s/athena-dots), re-tuned so the accents
 stay on the pink-red spectrum.
@@ -22,7 +23,7 @@ appears as *Pinkrot* in the theme switcher.
 ## Palette
 
 `colors.toml` is the source of truth. There is deliberately **no green, blue,
-teal or brown** — every role is a red/gold, a pink, or a purple. Backgrounds
+teal or brown** — every role is a red, a pink, a magenta or a purple. Backgrounds
 are a deep burgundy ramp (`#0b0206` → `#12040a` → `#190710` → `#2a1019`),
 kept dark but red-pink enough that surfaces read as surfaces rather than flat
 black.
@@ -38,7 +39,7 @@ black.
 | Muted | `muted` | `#6e3345` | dusky maroon |
 | Red | `red` | `#ff3b5c` | scarlet |
 | Orange | `orange` | `#ff7a45` | ember |
-| Yellow | `yellow` | `#ffc05a` | gold |
+| "Yellow" | `yellow` | `#d75fd7` | classic magenta |
 | "Green" | `green` | `#ff9db0` | soft rose (strings, success) |
 | "Blue" | `blue` | `#ff6f9c` | hot rose (functions, directories) |
 | Magenta | `magenta` | `#ff3d6e` | hot pink (keywords) |

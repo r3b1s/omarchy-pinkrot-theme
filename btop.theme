@@ -41,7 +41,7 @@ theme[div_line]="#6e3345"
 
 # Temperature graph
 theme[temp_start]="#ff9db0"
-theme[temp_mid]="#ffc05a"
+theme[temp_mid]="#d75fd7"
 theme[temp_end]="#ff3b5c"
 
 theme[cpu_start]="#c07ab8"
@@ -56,7 +56,7 @@ theme[cached_start]="#ff6f9c"
 theme[cached_mid]="#c07ab8"
 theme[cached_end]="#ff3d6e"
 
-theme[available_start]="#ffc05a"
+theme[available_start]="#d75fd7"
 theme[available_mid]="#ff3b5c"
 theme[available_end]="#ff3b5c"
 
@@ -64,7 +64,7 @@ theme[used_start]="#ff9db0"
 theme[used_mid]="#c07ab8"
 theme[used_end]="#ff6f9c"
 
-theme[download_start]="#ffc05a"
+theme[download_start]="#d75fd7"
 theme[download_mid]="#ff3b5c"
 theme[download_end]="#ff3b5c"
 
