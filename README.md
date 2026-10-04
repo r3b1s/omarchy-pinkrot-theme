@@ -9,7 +9,7 @@ stay on the pink-red spectrum.
 
 ## Preview
 
-![pinkrot theme preview](preview.png)
+![pinkrot theme preview](preview-palette.png)
 
 ## Install
 
@@ -67,7 +67,8 @@ selection rows with an ANSI bright-black.
 | `colors.toml` | The palette; drives every generated config |
 | `backgrounds/` | `0-bleach.webp` plus the `omarchy.webp` fallback |
 | `unlock.png` / `preview-unlock.png` | Lock screen art (Style > Unlock) |
-| `preview.png` | Theme switcher preview |
+| `preview.png` | Theme switcher preview (Malenia artwork) |
+| `preview-palette.png` | Palette poster for this README |
 | `btop.theme` | pinkrot btop colours |
 | `chromium.theme` | Browser theme seed (`58,10,28`) |
 | `icons.theme` | `Yaru-red` |
