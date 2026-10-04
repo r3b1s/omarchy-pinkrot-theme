@@ -1,0 +1,85 @@
+# pinkrot for btop — ported from athena-dots/btop/themes/pinkrot.theme,
+# extended with the keys omarchy's btop themes carry.
+
+# Main background
+theme[main_bg]="#050007"
+
+# Main text color
+theme[main_fg]="#f17e97"
+
+# Title color for boxes
+theme[title]="#d40d40"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#ff4f7a"
+
+# Selected item background/foreground
+theme[selected_bg]="#34111a"
+theme[selected_fg]="#ffd6df"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#8f4d61"
+
+# Text on top of graphs
+theme[graph_text]="#d08a9e"
+
+# Background of the percentage meters
+theme[meter_bg]="#34111a"
+
+# Process box misc
+theme[proc_misc]="#d08a9e"
+
+# Box outline colors
+theme[cpu_box]="#ff4f7a"
+theme[mem_box]="#9dd274"
+theme[net_box]="#ff365f"
+theme[proc_box]="#d40d40"
+
+# Divider line color
+theme[div_line]="#8f4d61"
+
+# Temperature graph
+theme[temp_start]="#9dd274"
+theme[temp_mid]="#ffc05a"
+theme[temp_end]="#ff365f"
+
+theme[cpu_start]="#7fd6d4"
+theme[cpu_mid]="#7a89ff"
+theme[cpu_end]="#ff4f7a"
+
+theme[free_start]="#ff4f7a"
+theme[free_mid]="#7a89ff"
+theme[free_end]="#7fd6d4"
+
+theme[cached_start]="#7a89ff"
+theme[cached_mid]="#7fd6d4"
+theme[cached_end]="#ff4f7a"
+
+theme[available_start]="#ffc05a"
+theme[available_mid]="#ff365f"
+theme[available_end]="#ff365f"
+
+theme[used_start]="#9dd274"
+theme[used_mid]="#7fd6d4"
+theme[used_end]="#7a89ff"
+
+theme[download_start]="#ffc05a"
+theme[download_mid]="#ff365f"
+theme[download_end]="#ff365f"
+
+theme[upload_start]="#9dd274"
+theme[upload_mid]="#7fd6d4"
+theme[upload_end]="#7a89ff"
+
+theme[process_start]="#7fd6d4"
+theme[process_mid]="#7a89ff"
+theme[process_end]="#ff4f7a"
+
+theme[gradient_color_0]="#050007"
+theme[gradient_color_1]="#0d060b"
+theme[gradient_color_2]="#34111a"
+theme[gradient_color_3]="#8f4d61"
+theme[gradient_color_4]="#a85869"
+theme[gradient_color_5]="#f17e97"
+theme[gradient_color_6]="#d08a9e"
+theme[gradient_color_7]="#ffd6df"

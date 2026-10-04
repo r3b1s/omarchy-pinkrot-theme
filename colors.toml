@@ -1,0 +1,59 @@
+# pinkrot — near-black, red-tinted, crimson chrome.
+#
+# Ported from the athena-dots pinkrot palette (i3 / alacritty / kitty / rofi /
+# dunst / nvim). The chrome stays crimson: near-black red-tinged surfaces, a
+# warm pink foreground, and #d40d40 as the accent. The syntax colours are the
+# theme's own editor palette, so terminals and editors get distinguishable hues
+# without leaving the pinkrot family.
+
+mode = "dark"
+
+accent = "#d40d40"
+selection = "#d40d40"
+selection_foreground = "#050007"
+muted = "#8f4d61"
+
+background = "#050007"
+dark_background = "#030004"
+darker_background = "#020003"
+lighter_background = "#0d060b"
+
+foreground = "#f17e97"
+dark_foreground = "#a85869"
+light_foreground = "#d08a9e"
+bright_foreground = "#ffd6df"
+
+red = "#ff365f"
+orange = "#ff7a45"
+yellow = "#ffc05a"
+green = "#9dd274"
+cyan = "#7fd6d4"
+blue = "#7a89ff"
+magenta = "#ff4f7a"
+brown = "#8f0936"
+
+bright_red = "#ff5e7f"
+bright_yellow = "#ffcd7b"
+bright_green = "#b1db90"
+bright_cyan = "#99dedd"
+bright_blue = "#95a1ff"
+bright_magenta = "#ff7295"
+
+# Hyprland / omarchy-shell window borders: the pinkrot red ramp as a gradient.
+hyprland_active_border = "#d40d40 #ff4f7a 45deg"
+hyprland_inactive_border = "rgba(3a1420aa)"
+
+# --- Monochrome terminal alternative -----------------------------------------
+# pinkrot's athena terminal is a single-hue red ramp. Omarchy drives terminals
+# from these same semantic keys, so uncommenting the block below (and setting
+# accent/selection to match) restores that look everywhere at the cost of
+# coloured syntax highlighting.
+#
+# red     = "#8f0936"
+# orange  = "#af0b39"
+# yellow  = "#ce0d3c"
+# green   = "#e80f3e"
+# cyan    = "#d40d40"
+# blue    = "#f00f40"
+# magenta = "#f17e97"
+# brown   = "#8f0936"
