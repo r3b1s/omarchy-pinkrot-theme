@@ -1,7 +1,7 @@
 # Omarchy pinkrot theme
 
-pinkrot is a dark, near-black theme in the Caelid register: scarlet, ember and
-gold over a red-tinted void, with pink chrome and bruised purples for contrast.
+pinkrot is a dark theme in the Caelid register: scarlet, ember and gold over a
+deep burgundy, with pink chrome and bruised purples for contrast.
 It is the Omarchy port of the `pinkrot` theme from
 [athena-dots](https://github.com/r3b1s/athena-dots), re-tuned so the accents
 stay on the pink-red spectrum.
@@ -22,15 +22,17 @@ appears as *Pinkrot* in the theme switcher.
 ## Palette
 
 `colors.toml` is the source of truth. There is deliberately **no green, blue,
-teal or brown** — every role is a red/gold, a pink, or a purple, and the
-background is darker than the original to keep text off its backdrop.
+teal or brown** — every role is a red/gold, a pink, or a purple. Backgrounds
+are a deep burgundy ramp (`#0b0206` → `#12040a` → `#190710` → `#2a1019`),
+kept dark but red-pink enough that surfaces read as surfaces rather than flat
+black.
 
 | Role | Key | Value | Reads as |
 | --- | --- | --- | --- |
 | Accent | `accent` | `#d40d40` | crimson |
 | Selection | `selection` / `selection_foreground` | `#d40d40` / `#180107` | crimson / near-black |
-| Background | `background` | `#040003` | near-black red |
-| Surface | `lighter_background` | `#0b0408` | dark plum |
+| Background | `background` | `#190710` | deep burgundy |
+| Surface | `lighter_background` | `#2a1019` | lighter burgundy |
 | Foreground | `foreground` | `#f08a9b` | warm pink |
 | Bright foreground | `bright_foreground` | `#ffd4dc` | bone pink |
 | Muted | `muted` | `#6e3345` | dusky maroon |
@@ -48,13 +50,14 @@ The names in quotes keep their ANSI slots but not their hues, so tools that
 reach for `green`/`blue`/`cyan` land back inside the pink-red-purple family.
 Window borders (`hyprland_active_border`) run crimson into bruise.
 
-### Why the background is so dark
+### Browser seed
 
 Chromium derives a full Material-You palette from `chromium.theme`. The
 original `#050007` background has a *blue*-dominant channel pair, so the
-derived browser theme came out bright purple; a near-black red seed keeps the
-browser in-family. The theme's darker background also lifts text off its
-backdrop in TUIs that paint selection rows with an ANSI bright-black.
+derived browser theme came out bright purple; the theme points
+`chromium.theme` at a red-hued burgundy instead, keeping the browser in-family.
+The darkened `muted` slot also lifts text off its backdrop in TUIs that paint
+selection rows with an ANSI bright-black.
 
 ## What's included
 

@@ -3,7 +3,7 @@
 # omarchy's btop themes carry. No green, blue, teal or brown.
 
 # Main background
-theme[main_bg]="#040003"
+theme[main_bg]="#190710"
 
 # Main text color
 theme[main_fg]="#f08a9b"
@@ -15,7 +15,7 @@ theme[title]="#d40d40"
 theme[hi_fg]="#ff3d6e"
 
 # Selected item background/foreground
-theme[selected_bg]="#3a0a1c"
+theme[selected_bg]="#3a1220"
 theme[selected_fg]="#ffd4dc"
 
 # Color of inactive/disabled text
@@ -25,7 +25,7 @@ theme[inactive_fg]="#8a4557"
 theme[graph_text]="#d99aa8"
 
 # Background of the percentage meters
-theme[meter_bg]="#2a0713"
+theme[meter_bg]="#2a1019"
 
 # Process box misc
 theme[proc_misc]="#c07ab8"
@@ -76,9 +76,9 @@ theme[process_start]="#c07ab8"
 theme[process_mid]="#ff6f9c"
 theme[process_end]="#ff3d6e"
 
-theme[gradient_color_0]="#040003"
-theme[gradient_color_1]="#0b0408"
-theme[gradient_color_2]="#2a0713"
+theme[gradient_color_0]="#0b0206"
+theme[gradient_color_1]="#190710"
+theme[gradient_color_2]="#2a1019"
 theme[gradient_color_3]="#6e3345"
 theme[gradient_color_4]="#8a4557"
 theme[gradient_color_5]="#f08a9b"

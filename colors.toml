@@ -10,13 +10,15 @@ mode = "dark"
 
 accent = "#d40d40"
 selection = "#d40d40"
-selection_foreground = "#180107"
+selection_foreground = "#190710"
 muted = "#6e3345"
 
-background = "#040003"
-dark_background = "#020002"
-darker_background = "#010001"
-lighter_background = "#0b0408"
+# Deep burgundy ramp: dark enough to keep the chrome quiet, red-pink enough
+# that background steps read as distinct surfaces instead of flat black.
+background = "#190710"
+dark_background = "#12040a"
+darker_background = "#0b0206"
+lighter_background = "#2a1019"
 
 foreground = "#f08a9b"
 dark_foreground = "#8a4557"
