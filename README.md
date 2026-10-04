@@ -1,9 +1,10 @@
 # Omarchy pinkrot theme
 
-pinkrot is a near-black, red-tinted theme: crimson chrome on a `#050007`
-surface, a warm pink foreground, and `#d40d40` as the accent. It is the Omarchy
-port of the `pinkrot` theme from
-[athena-dots](https://github.com/r3b1s/athena-dots).
+pinkrot is a dark, near-black theme in the Caelid register: scarlet, ember and
+gold over a red-tinted void, with pink chrome and bruised purples for contrast.
+It is the Omarchy port of the `pinkrot` theme from
+[athena-dots](https://github.com/r3b1s/athena-dots), re-tuned so the accents
+stay on the pink-red spectrum.
 
 ## Preview
 
@@ -20,37 +21,40 @@ appears as *Pinkrot* in the theme switcher.
 
 ## Palette
 
-`colors.toml` is the source of truth. Chrome stays crimson; the syntax colours
-are pinkrot's own editor palette, so terminals and editors get distinguishable
-hues without leaving the red/pink family.
+`colors.toml` is the source of truth. There is deliberately **no green, blue,
+teal or brown** — every role is a red/gold, a pink, or a purple, and the
+background is darker than the original to keep text off its backdrop.
 
-| Role | Key | Value |
-| --- | --- | --- |
-| Accent | `accent` | `#d40d40` |
-| Selection | `selection` / `selection_foreground` | `#d40d40` / `#050007` |
-| Background | `background` | `#050007` |
-| Surface | `lighter_background` | `#0d060b` |
-| Foreground | `foreground` | `#f17e97` |
-| Bright foreground | `bright_foreground` | `#ffd6df` |
-| Muted | `muted` | `#8f4d61` |
-| Red | `red` | `#ff365f` |
-| Orange | `orange` | `#ff7a45` |
-| Yellow | `yellow` | `#ffc05a` |
-| Green | `green` | `#9dd274` |
-| Cyan | `cyan` | `#7fd6d4` |
-| Blue | `blue` | `#7a89ff` |
-| Magenta | `magenta` | `#ff4f7a` |
+| Role | Key | Value | Reads as |
+| --- | --- | --- | --- |
+| Accent | `accent` | `#d40d40` | crimson |
+| Selection | `selection` / `selection_foreground` | `#d40d40` / `#180107` | crimson / near-black |
+| Background | `background` | `#040003` | near-black red |
+| Surface | `lighter_background` | `#0b0408` | dark plum |
+| Foreground | `foreground` | `#f08a9b` | warm pink |
+| Bright foreground | `bright_foreground` | `#ffd4dc` | bone pink |
+| Muted | `muted` | `#6e3345` | dusky maroon |
+| Red | `red` | `#ff3b5c` | scarlet |
+| Orange | `orange` | `#ff7a45` | ember |
+| Yellow | `yellow` | `#ffc05a` | gold |
+| "Green" | `green` | `#ff9db0` | soft rose (strings, success) |
+| "Blue" | `blue` | `#ff6f9c` | hot rose (functions, directories) |
+| Magenta | `magenta` | `#ff3d6e` | hot pink (keywords) |
+| "Cyan" | `cyan` | `#c07ab8` | dusky orchid (links, the prompt) |
+| Purple | `purple` | `#7d4a8e` | bruise |
+| "Brown" | `brown` | `#5a1f3a` | deep plum |
 
-Window borders (`hyprland_active_border`, `hyprland_inactive_border`) carry the
-pinkrot red ramp as a gradient, which Omarchy feeds to Hyprland and the shell.
+The names in quotes keep their ANSI slots but not their hues, so tools that
+reach for `green`/`blue`/`cyan` land back inside the pink-red-purple family.
+Window borders (`hyprland_active_border`) run crimson into bruise.
 
-### Monochrome terminal
+### Why the background is so dark
 
-pinkrot's Athena terminal is a single-hue red ramp. Omarchy drives terminals
-from the same semantic keys as everything else, so a coloured terminal is the
-default here. `colors.toml` ends with a commented block that restores the
-monochrome ramp; uncomment it and re-apply the theme if you want the original
-terminal look back, accepting red-toned syntax highlighting as the trade.
+Chromium derives a full Material-You palette from `chromium.theme`. The
+original `#050007` background has a *blue*-dominant channel pair, so the
+derived browser theme came out bright purple; a near-black red seed keeps the
+browser in-family. The theme's darker background also lifts text off its
+backdrop in TUIs that paint selection rows with an ANSI bright-black.
 
 ## What's included
 
@@ -61,7 +65,7 @@ terminal look back, accepting red-toned syntax highlighting as the trade.
 | `unlock.png` / `preview-unlock.png` | Lock screen art (Style > Unlock) |
 | `preview.png` | Theme switcher preview |
 | `btop.theme` | pinkrot btop colours |
-| `chromium.theme` | Chromium background (`5,0,7`) |
+| `chromium.theme` | Browser theme seed (`58,10,28`) |
 | `icons.theme` | `Yaru-red` |
 | `keyboard.rgb` | Keyboard backlight colour (`#d40d40`) |
 
@@ -71,7 +75,5 @@ repo, so the repo only carries files that survive installation.
 
 ## Notes
 
-- `foreground` is the Athena terminal pink (`#f17e97`); `bright_foreground` is
-  the brighter editor foreground (`#ffd6df`) used for cursors and bright text.
 - Additional wallpaper for this theme goes in
   `~/.config/omarchy/backgrounds/pinkrot/`; it is not tracked here.
