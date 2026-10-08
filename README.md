@@ -65,7 +65,7 @@ selection rows with an ANSI bright-black.
 | File | Purpose |
 | --- | --- |
 | `colors.toml` | The palette; drives every generated config |
-| `backgrounds/` | `0-bleach.webp` plus the `omarchy.webp` fallback |
+| `backgrounds/` | Originals (`*_0`) and palette-graded versions (`*_1`): the same gradient map, from a near-black `darker_background` floor up through muted rose to dusky crimson, applied to each image's brightness |
 | `unlock.png` / `preview-unlock.png` | Lock screen art (Style > Unlock) |
 | `preview.png` | Theme switcher preview (Malenia artwork) |
 | `preview-palette.png` | Palette poster for this README |
