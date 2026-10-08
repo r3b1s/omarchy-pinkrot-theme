@@ -9,7 +9,7 @@ theme[main_bg]="#190710"
 theme[main_fg]="#f08a9b"
 
 # Title color for boxes
-theme[title]="#d40d40"
+theme[title]="#c2335c"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#ff3d6e"
@@ -34,7 +34,7 @@ theme[proc_misc]="#c07ab8"
 theme[cpu_box]="#c07ab8"
 theme[mem_box]="#ff9db0"
 theme[net_box]="#ff3b5c"
-theme[proc_box]="#d40d40"
+theme[proc_box]="#c2335c"
 
 # Divider line color
 theme[div_line]="#6e3345"

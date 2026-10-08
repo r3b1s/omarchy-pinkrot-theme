@@ -30,8 +30,8 @@ black.
 
 | Role | Key | Value | Reads as |
 | --- | --- | --- | --- |
-| Accent | `accent` | `#d40d40` | crimson |
-| Selection | `selection` / `selection_foreground` | `#d40d40` / `#180107` | crimson / near-black |
+| Accent | `accent` | `#c2335c` | muted rose-crimson |
+| Selection | `selection` / `selection_foreground` | `#c2335c` / `#180107` | muted rose-crimson / near-black |
 | Background | `background` | `#190710` | deep burgundy |
 | Surface | `lighter_background` | `#2a1019` | lighter burgundy |
 | Foreground | `foreground` | `#f08a9b` | warm pink |
@@ -72,7 +72,7 @@ selection rows with an ANSI bright-black.
 | `btop.theme` | pinkrot btop colours |
 | `chromium.theme` | Browser theme seed (`58,10,28`) |
 | `icons.theme` | `Yaru-red` |
-| `keyboard.rgb` | Keyboard backlight colour (`#d40d40`) |
+| `keyboard.rgb` | Keyboard backlight colour (`#c2335c`) |
 
 No terminal config, Lua, or `vscode.json` is shipped. Omarchy regenerates those
 from `colors.toml` anyway, and drops them from a theme installed out of a git
